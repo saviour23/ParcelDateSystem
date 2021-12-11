@@ -37,9 +37,9 @@ regex is validating the basic input format "DD MM YYYY" and that the year must b
 
 
 ### Classes used
-1) **ApplicationMain**:- mail class to read the input via scanner API
-2) **DateDifferenceFinderService**:- service class responsible to finding the difference and populate the model class as well
-3) **ValidateInput**:- class validating if input has 2 dates and if it's passing the regEx defined.
+1) **ApplicationMain**:- Main class to read the input via scanner API
+2) **DateDifferenceFinderService**:- Service class responsible to finding the difference and populate the model class as well
+3) **ValidateInput**:- Class validating if input has 2 dates and if it's passing the regEx defined.
 4) **DateDiffModel**:- Model class holding the FROM, TO and DateDiff result.
 5) **DateException**:- Custom Exception class.
 6) **AppConstant**:- Application constants.
