@@ -1,6 +1,7 @@
 package com.parcel.system.DateDifferenceFinder;
 
 import com.parcel.system.DateDifferenceFinder.service.DateDifferenceFinderService;
+import com.parcel.system.DateDifferenceFinder.service.impl.DateDifferenceFinderServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +26,7 @@ public class ApplicationMain {
             String inputString = scanner.nextLine();
             String[] datesArr = inputString.split(COMMA_SPLITTER);
 
-            DateDifferenceFinderService serviceObject = new DateDifferenceFinderService();
+            DateDifferenceFinderService serviceObject = new DateDifferenceFinderServiceImpl();
             serviceObject.findDifferenceInDays(datesArr);
         } catch (Exception e) {
             LOG.error("Error in  application, errorMessage= {}", e.getMessage());

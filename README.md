@@ -45,4 +45,12 @@ regex is validating the basic input format "DD MM YYYY" and that the year must b
 5) **DateException**:- Custom Exception class.
 6) **AppConstant**:- Application constants.
 
+## Console Output:-
 
+```dtd
+
+22:57:24.128 [main] INFO  com.parcel.system.DateDifferenceFinder.ApplicationMain - Please enter From and To date in comma separated in dd MM yyyy format
+27 02 2020, 06 03 2020
+22:57:47.258 [main] INFO  com.parcel.system.DateDifferenceFinder.service.impl.DateDifferenceFinderServiceImpl - 27 02 2020, 06 03 2020, 8
+
+```

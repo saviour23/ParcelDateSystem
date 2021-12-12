@@ -2,18 +2,19 @@ package com.parcel.system.DateDifferenceFinder.service;
 
 import com.parcel.system.DateDifferenceFinder.exception.DateException;
 import com.parcel.system.DateDifferenceFinder.model.DateDiffModel;
+import com.parcel.system.DateDifferenceFinder.service.impl.DateDifferenceFinderServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class DateDifferenceFinderServiceTest {
+public class DateDifferenceFinderServiceImplTest {
 
     private DateDifferenceFinderService dateDifferenceFinderService;
 
     @Before
     public void init() {
-        dateDifferenceFinderService = new DateDifferenceFinderService();
+        dateDifferenceFinderService = new DateDifferenceFinderServiceImpl();
 
     }
 
