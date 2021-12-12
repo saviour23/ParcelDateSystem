@@ -1,12 +1,12 @@
-#Parcel Systems, Date comparison Tool
+# Parcel Systems, Date comparison Tool
 # Requirements
-##Input 
+## Input 
 Dates with following format:-
 DD MM YYYY , DD MM YYYY
 
 Validate input and find the difference in days between supplied dates.
 
-##Output:-
+## Output:-
 
 DD MM YYYY , DD MM YYYY , difference
 
@@ -14,11 +14,11 @@ DD MM YYYY , DD MM YYYY , difference
 2) the second date is latest
 3) difference is the number of days
 
-##Constraints
+## Constraints
 limit input range of dates between 1900 to 2020
 
 
-##Solution
+## Solution
 Java 8 has provided the Time library which is equivalent to Joda-Time and it's recommended to use java 8 library instead of joda.
 Ref [Java 8 Recommended](https://www.joda.org/joda-time/).
 
