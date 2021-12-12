@@ -16,7 +16,6 @@ public final class ValidateInput {
 
         if (datesArr.length == 2 && datesArr[0].trim().matches(DATE_REGEX) && datesArr[1].trim().matches(DATE_REGEX)) {
             isValid = true;
-
         }
 
         return isValid;

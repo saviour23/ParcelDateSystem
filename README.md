@@ -1,11 +1,12 @@
 #Parcel Systems, Date comparison Tool
-## Requirements
-###Input 
+# Requirements
+##Input 
 Dates with following format:-
 DD MM YYYY , DD MM YYYY
+
 Validate input and find the difference in days between supplied dates.
 
-###Output:-
+##Output:-
 
 DD MM YYYY , DD MM YYYY , difference
 
@@ -13,7 +14,7 @@ DD MM YYYY , DD MM YYYY , difference
 2) the second date is latest
 3) difference is the number of days
 
-###Constraints
+##Constraints
 limit input range of dates between 1900 to 2020
 
 
@@ -36,7 +37,7 @@ As per the requirement, I have used the formatter provided by java 8 i.e. `DateT
 regex is validating the basic input format "DD MM YYYY" and that the year must be in between 1900 to 2020
 
 
-### Classes used
+## Classes used
 1) **ApplicationMain**:- Main class to read the input via scanner API
 2) **DateDifferenceFinderService**:- Service class responsible to finding the difference and populate the model class as well
 3) **ValidateInput**:- Class validating if input has 2 dates and if it's passing the regEx defined.
